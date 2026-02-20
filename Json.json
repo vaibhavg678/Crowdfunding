@@ -1,0 +1,78 @@
+{
+  "name": "Executive Dark Corporate",
+  "background": "#0F172A",
+  "foreground": "#E5E7EB",
+  "tableAccent": "#2563EB",
+  "dataColors": [
+    "#2563EB",
+    "#1E40AF",
+    "#3B82F6",
+    "#F59E0B",
+    "#10B981",
+    "#64748B",
+    "#0EA5E9",
+    "#F97316"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 14,
+            "color": { "solid": { "color": "#F1F5F9" } }
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#E2E8F0" } },
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1E293B" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#334155" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontSize": 28,
+            "color": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#94A3B8" } }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "color": { "solid": { "color": "#E5E7EB" } }
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#1E293B" } }
+          }
+        ]
+      }
+    }
+  }
+}
